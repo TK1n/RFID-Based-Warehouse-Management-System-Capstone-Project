@@ -16,7 +16,7 @@ The solution is built based on the **5-Layer IoT Reference Model** (Things, Conn
 The project integrates hardware and software components across the full IoT stack:
 
 - **UHF RFID Hardware**: SM06 UHF Reader + passive EPC Gen2 RFID tags (ISO 18000-63).
-- **Edge Application**: C# (.NET Framework) with custom Finite State Machine and File-based IPC. [Github Link](https://github.com/Marvick-Lee/Manager_Reader_App_Publish)
+- **Edge Application**: C# (.NET Framework) with custom Finite State Machine and File-based IPC. [Github Link](https://github.com/Marvick-Lee/Manager_Reader_App)
 - **Backend**: PHP + PostgreSQL (Amazon RDS).
 - **Frontend**: Modern web interface with JavaScript for real-time dashboard and search.
 - **Communication**: Asynchronous File-based IPC between Reader App and Web Backend.
